@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/footer";
 import Home from "./pages/Home/home";
 
 import Cart from "./pages/Cart/cart";
@@ -14,6 +15,7 @@ const App = () => {
         <Route path = "/cart" element = {<Cart />} />
         <Route path = "/placeorder" element = {<PlaceOrder />} />
       </Routes>
+      <Footer/>
     </div>
   );
 };
